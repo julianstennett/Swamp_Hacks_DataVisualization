@@ -8,6 +8,12 @@ data = response_dict["result"] # create new object data which holds the results 
 data = data["records"]
 print()
 
+class AlgalBloom:
+    def __init__(self, name, latitude, longitude):
+        self.name = name
+        self.lat = latitude
+        self.lon = longitude
+
 for i in range(len(data)):
     print(f"OfficialWaterBodyName: {data[i]['OfficialWaterBodyName']}")
     print(f"Latitude: {data[i]['Longitude']}")

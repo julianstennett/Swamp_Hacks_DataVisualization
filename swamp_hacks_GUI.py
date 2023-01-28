@@ -1,10 +1,12 @@
 import tkinter as tk
 
-root = tk.Tk()
-root.geometry("1000x1000")
+class AlgalBloomGui:
 
-label = tk.Label(root, text="Algal Blooms", font=('Arial', 18))
-label.pack()
+    def __init__(self):
+        self.root = tk.Tk()
+        
+        self.root.geometry("300x300")
 
+        self.root.mainloop()
 
-root.mainloop()
+AlgalBloomGui()
