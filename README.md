@@ -1,2 +1,2 @@
 This project will use a public datasheet to map coordinates of algal blooms within the specified area. This information will be useful for understanding the environmental impact, concentration, and causes of these harmful freshwater algal blooms.With that said this project will be a data visualization of the public dataset depicting the location of algal blooms in California. 
-Data comes from data.ca.gov - california open data portal. Some tkinter framework information & project references https://github.com/TomSchimansky.
+Data comes from data.ca.gov - california open data portal. Some tkinter framework information & project references github - TomSchimansky.
